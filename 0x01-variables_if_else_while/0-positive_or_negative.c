@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* main - program to check the condition of a number
-*/
+ * main - program to check the condition of a number
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
