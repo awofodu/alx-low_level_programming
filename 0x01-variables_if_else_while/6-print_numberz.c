@@ -1,14 +1,17 @@
 #include <stdio.h>
+
 /**
   * main - Entry point
-  * a program that prints the alphabet in lowercase, followed by a 
+  * a program that prints base10 numbers from 0
   * Return: 0
   */
+
 int main(void)
 {
+
 	for (int n = 0;  n < 10; n++)
 	{
-		printf("%d", n);
+		putchar(n + '0');
 	}
-	printf("\n");
+	putchar('\n');
 }
