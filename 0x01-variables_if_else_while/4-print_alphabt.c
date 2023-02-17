@@ -9,7 +9,9 @@
 
 int main(void)
 {
-	for (char l = 'a'; l <= 'z'; l++)
+	char l;
+
+	for (l = 'a'; l <= 'z'; l++)
 	{
 		if (l == 'e' || l == 'q')
 		{
