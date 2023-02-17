@@ -14,7 +14,7 @@ int main(void)
 	do {
 		putchar(l);
 		--l;
-	}while(l >= 'a');
+	} while (l >= 'a');
 
 	putchar('\n');
 	return (0);
