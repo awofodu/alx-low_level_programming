@@ -10,19 +10,15 @@ int main(void)
 	char sl = 'a';
 	char cl = 'A';
 
-	do
-	{
+	do {
 		putchar(sl);
 		sl++;
-	}
-	while(sl <= 'z');
+	} while (sl <= 'z');
 
-	do
-	{
+	do {
 		putchar(cl);
 		cl++;
-	}
-	while(cl <= 'Z');
+	} while (cl <= 'Z');
 	putchar('\n');
 	return (0);
 }

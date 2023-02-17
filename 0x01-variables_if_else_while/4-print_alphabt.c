@@ -3,15 +3,15 @@
 
 /**
   * main - Entry point
-  * a program that prints the alphabet in lowercase, followed by a 
+  * a program that prints the alphabet in lowercase, followed by a
   * Return: 0
   */
 
 int main(void)
 {
-	for(char l = 'a'; l <= 'z'; l++)
+	for (char l = 'a'; l <= 'z'; l++)
 	{
-		if(l == 'e' || l == 'q')
+		if (l == 'e' || l == 'q')
 		{
 			continue;
 		}
