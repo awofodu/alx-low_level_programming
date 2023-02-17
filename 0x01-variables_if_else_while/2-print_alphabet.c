@@ -16,4 +16,3 @@ int main(void)
 	while(l <= 'z');
 	putchar('\n');
 }
-

@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /**
   * main - Entry point
   * a program that prints the alphabet in lowercase, followed by a 
@@ -8,7 +9,6 @@
 
 int main(void)
 {
-	char l = 'a'; 
 	for(char l = 'a'; l <= 'z'; l++)
 	{
 		if(l == 'e' || l == 'q')
@@ -19,4 +19,3 @@ int main(void)
 	}
 	putchar('\n');
 }
-

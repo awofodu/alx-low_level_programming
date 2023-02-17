@@ -24,4 +24,3 @@ int main(void)
 	while(cl <= 'Z');
 	putchar('\n');
 }
-
