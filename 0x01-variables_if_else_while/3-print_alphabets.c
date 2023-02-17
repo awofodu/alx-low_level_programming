@@ -9,6 +9,7 @@ int main(void)
 {
 	char sl = 'a';
 	char cl = 'A';
+
 	do
 	{
 		putchar(sl);
