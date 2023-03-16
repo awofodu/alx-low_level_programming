@@ -6,7 +6,7 @@
  * @argc: number of arguments
  * @argv: array of arguments
  *
- * Return: Always 0 (Success)
+ * Return: malloc pointer
  */
 
 void *malloc_checked(unsigned int b){
@@ -16,7 +16,7 @@ void *malloc_checked(unsigned int b){
 
   if(ptB == NULL)
   {
-    exit(1);
+    exit(98);
   }else{ 
     return (ptB);
   }
