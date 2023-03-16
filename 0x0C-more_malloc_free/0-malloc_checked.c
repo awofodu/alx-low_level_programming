@@ -9,7 +9,8 @@
  * Return: malloc pointer
  */
 
-void *malloc_checked(unsigned int b){
+void *malloc_checked(unsigned int b)
+{
   void *ptB;
 
   ptB = malloc(b);
