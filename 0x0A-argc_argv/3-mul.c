@@ -47,27 +47,29 @@ int _atoi(char *s)
 }
 
 /**
- * main - multiplies two numbers
- * @argc: number of arguments
- * @argv: array of arguments
- *
- * Return: 0 (Success), 1 (Error)
- */
+* main - Write a program that prints its name, followed by a new line.
+* @argc: number of arguments
+* @argv: array of arguments
+
+* Return: 0
+*/
+
 int main(int argc, char *argv[])
 {
-	int result, num1, num2;
+  int product;
+  int number1;
+  int number2;
 
-	if (argc < 3 || argc > 3)
-	{
-		printf("Error\n");
-		return (1);
-	}
+  if(argc < 3 || argc > 3)
+  {
+    printf("Error\n");
+    return (1);
+  }
 
-	num1 = _atoi(argv[1]);
-	num2 = _atoi(argv[2]);
-	result = num1 * num2;
-
-	printf("%d\n", result);
-
-	return (0);
+  number1 = _atoi(argv[1]);
+  number2 = _atoi(argv[2]);
+  
+  product = number1 * number2;
+  printf("%d\n", product);
+  return (0);
 }
