@@ -3,8 +3,6 @@
 
 /**
  * main - Write a function that allocates memory using  malloc.
- * @argc: number of arguments
- * @argv: array of arguments
  *
  * Return: malloc pointer
  */
